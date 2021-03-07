@@ -8,8 +8,6 @@ Inspired by [sushibar](https://github.com/mzp/sushibar)
 なんか重い気がする
 
 # Install
-
-# Install
 1. [Releases](https://github.com/PetitStrawberry/InfiniteSushiBTT/releases)からダウンロードして解凍
 2. Gatekeeperを一時的に無効化
 ```shell
