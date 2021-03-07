@@ -3,6 +3,10 @@ BetterTouchTool TouchBar Plugin 無限回転寿司編
 
 Inspired by [sushibar](https://github.com/mzp/sushibar)
 
+
+### 注意
+なんか重い
+
 # Install
 
 # Install
