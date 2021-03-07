@@ -5,7 +5,7 @@ Inspired by [sushibar](https://github.com/mzp/sushibar)
 
 
 ### 注意
-なんか重い
+なんか重い気がする
 
 # Install
 
