@@ -26,7 +26,7 @@ sudo spctl --master-enable
 # Credit
 
 - [BetterTouchToolPlugins](https://github.com/folivoraAI/BetterTouchToolPlugins)
-  - BTTPluginSupport.framewrok, BTTPluginInterface.h
+  - BTTPluginSupport.framework, BTTPluginInterface.h
 
 # LICENSE
 
