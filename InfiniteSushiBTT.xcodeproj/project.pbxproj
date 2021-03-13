@@ -12,6 +12,11 @@
 		6F212E5325F4BEF2007C0F3A /* PluginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F212E5025F4BEF2007C0F3A /* PluginViewController.swift */; };
 		6F45F36F25F4E2B500AB66BA /* BTTPluginSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9454C4A22BE69BA00055860 /* BTTPluginSupport.framework */; };
 		6F45F37025F4E2B500AB66BA /* BTTPluginSupport.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A9454C4A22BE69BA00055860 /* BTTPluginSupport.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6FC7350D25FC53E700A7C860 /* InfiniteSushiPreviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC7350C25FC53E700A7C860 /* InfiniteSushiPreviewApp.swift */; };
+		6FC7350F25FC53E700A7C860 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC7350E25FC53E700A7C860 /* ContentView.swift */; };
+		6FC7351125FC53E700A7C860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FC7351025FC53E700A7C860 /* Assets.xcassets */; };
+		6FC7351425FC53E700A7C860 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FC7351325FC53E700A7C860 /* Preview Assets.xcassets */; };
+		6FC7352B25FC546F00A7C860 /* SushiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F212E4E25F4BEF2007C0F3A /* SushiView.swift */; };
 		A9454C5C22BE69BA00055860 /* BTTPluginSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = A9454C4C22BE69BA00055860 /* BTTPluginSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9454C6822BE69C700055860 /* BTTFormConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A9454C2822BE204300055860 /* BTTFormConstants.m */; };
 		A9454C6922BE69C700055860 /* BTTPluginFormItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A9454C2722BE204300055860 /* BTTPluginFormItem.m */; };
@@ -46,6 +51,13 @@
 		6F212E4F25F4BEF2007C0F3A /* PluginMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PluginMain.swift; sourceTree = "<group>"; };
 		6F212E5025F4BEF2007C0F3A /* PluginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PluginViewController.swift; sourceTree = "<group>"; };
 		6F45F36825F4E23D00AB66BA /* BTTPluginInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTPluginInterface.h; sourceTree = "<group>"; };
+		6FC7350A25FC53E700A7C860 /* InfiniteSushiPreview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniteSushiPreview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FC7350C25FC53E700A7C860 /* InfiniteSushiPreviewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteSushiPreviewApp.swift; sourceTree = "<group>"; };
+		6FC7350E25FC53E700A7C860 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6FC7351025FC53E700A7C860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FC7351325FC53E700A7C860 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6FC7351525FC53E700A7C860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FC7351625FC53E700A7C860 /* InfiniteSushiPreview.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InfiniteSushiPreview.entitlements; sourceTree = "<group>"; };
 		A9454BFF22BE1E9900055860 /* BTTTouchBarPluginInfiniteSushi.btttouchbarplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTTTouchBarPluginInfiniteSushi.btttouchbarplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9454C0122BE1E9900055860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9454C1322BE1F9100055860 /* BTTTouchBarPluginInfiniteSushi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTTTouchBarPluginInfiniteSushi-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -59,6 +71,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6FC7350725FC53E700A7C860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9454BFC22BE1E9900055860 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -77,9 +96,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6FC7350B25FC53E700A7C860 /* InfiniteSushiPreview */ = {
+			isa = PBXGroup;
+			children = (
+				6FC7350C25FC53E700A7C860 /* InfiniteSushiPreviewApp.swift */,
+				6FC7350E25FC53E700A7C860 /* ContentView.swift */,
+				6FC7351025FC53E700A7C860 /* Assets.xcassets */,
+				6FC7351525FC53E700A7C860 /* Info.plist */,
+				6FC7351625FC53E700A7C860 /* InfiniteSushiPreview.entitlements */,
+				6FC7351225FC53E700A7C860 /* Preview Content */,
+			);
+			path = InfiniteSushiPreview;
+			sourceTree = "<group>";
+		};
+		6FC7351225FC53E700A7C860 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6FC7351325FC53E700A7C860 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		A9454BB522BE1E3300055860 = {
 			isa = PBXGroup;
 			children = (
+				6FC7350B25FC53E700A7C860 /* InfiniteSushiPreview */,
 				A9454C0022BE1E9900055860 /* BTTTouchBarPluginInfiniteSushi */,
 				A9454C4B22BE69BA00055860 /* BTTPluginSupport */,
 				A9454BBF22BE1E3300055860 /* Products */,
@@ -92,6 +133,7 @@
 			children = (
 				A9454BFF22BE1E9900055860 /* BTTTouchBarPluginInfiniteSushi.btttouchbarplugin */,
 				A9454C4A22BE69BA00055860 /* BTTPluginSupport.framework */,
+				6FC7350A25FC53E700A7C860 /* InfiniteSushiPreview.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,6 +185,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		6FC7350925FC53E700A7C860 /* InfiniteSushiPreview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FC7351725FC53E700A7C860 /* Build configuration list for PBXNativeTarget "InfiniteSushiPreview" */;
+			buildPhases = (
+				6FC7350625FC53E700A7C860 /* Sources */,
+				6FC7350725FC53E700A7C860 /* Frameworks */,
+				6FC7350825FC53E700A7C860 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfiniteSushiPreview;
+			productName = InfiniteSushiPreview;
+			productReference = 6FC7350A25FC53E700A7C860 /* InfiniteSushiPreview.app */;
+			productType = "com.apple.product-type.application";
+		};
 		A9454BFE22BE1E9900055860 /* BTTTouchBarPluginInfiniteSushi */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9454C0222BE1E9900055860 /* Build configuration list for PBXNativeTarget "BTTTouchBarPluginInfiniteSushi" */;
@@ -188,9 +247,13 @@
 		A9454BB622BE1E3300055860 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = "Andreas Hegenberg";
+				ORGANIZATIONNAME = PetitStrawberry;
 				TargetAttributes = {
+					6FC7350925FC53E700A7C860 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					A9454BFE22BE1E9900055860 = {
 						CreatedOnToolsVersion = 10.2.1;
 						LastSwiftMigration = 1020;
@@ -215,6 +278,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				6FC7350925FC53E700A7C860 /* InfiniteSushiPreview */,
 				A9454BFE22BE1E9900055860 /* BTTTouchBarPluginInfiniteSushi */,
 				A9454C4922BE69BA00055860 /* BTTPluginSupport */,
 			);
@@ -222,6 +286,15 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6FC7350825FC53E700A7C860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC7351425FC53E700A7C860 /* Preview Assets.xcassets in Resources */,
+				6FC7351125FC53E700A7C860 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9454BFD22BE1E9900055860 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -239,6 +312,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6FC7350625FC53E700A7C860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC7350F25FC53E700A7C860 /* ContentView.swift in Sources */,
+				6FC7350D25FC53E700A7C860 /* InfiniteSushiPreviewApp.swift in Sources */,
+				6FC7352B25FC546F00A7C860 /* SushiView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9454BFB22BE1E9900055860 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -269,6 +352,60 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		6FC7351825FC53E700A7C860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_ENTITLEMENTS = InfiniteSushiPreview/InfiniteSushiPreview.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"InfiniteSushiPreview/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = InfiniteSushiPreview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.petitstb.InfiniteSushiPreview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6FC7351925FC53E700A7C860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_ENTITLEMENTS = InfiniteSushiPreview/InfiniteSushiPreview.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"InfiniteSushiPreview/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = InfiniteSushiPreview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.petitstb.InfiniteSushiPreview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		A9454BE622BE1E3500055860 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -486,6 +623,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6FC7351725FC53E700A7C860 /* Build configuration list for PBXNativeTarget "InfiniteSushiPreview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FC7351825FC53E700A7C860 /* Debug */,
+				6FC7351925FC53E700A7C860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A9454BB922BE1E3300055860 /* Build configuration list for PBXProject "InfiniteSushiBTT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

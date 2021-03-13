@@ -3,6 +3,7 @@
 //  BTTPluginInfiniteSushi
 //
 //  Created by プチいちご on 2021/03/07.
+//  Copyright © 2021 PetitStrawberry. All rights reserved.
 //
 
 import Cocoa
