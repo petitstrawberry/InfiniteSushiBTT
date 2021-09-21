@@ -25,11 +25,6 @@ sudo spctl --master-enable
 # How To Use それっぽいの
 寿司食べたい
 
-# Credit
-
-- [BetterTouchToolPlugins](https://github.com/folivoraAI/BetterTouchToolPlugins)
-  - BTTPluginSupport, BTTPluginInterface.h
-
 # Acknowledgement
 
 ## BetterTouchToolPlugins
